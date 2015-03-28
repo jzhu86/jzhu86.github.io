@@ -1,0 +1,298 @@
+body {
+	background: #FFFFFF url(../_images/background.jpg) repeat-x left top;
+	text-align: justify;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	color: #000;
+	margin-top: 0;
+	margin-right: 0;
+	margin-left: 0;
+	padding-top: 0;
+	padding-right: 0;
+	padding-left: 0;
+	padding-bottom: 30px;
+}
+
+
+h1, h2, h3 {
+	font-weight: normal;
+	color: #212121;
+}
+
+h1 {
+	letter-spacing: -1px;
+	font-size: 2.2em;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+h2 {
+	font-size: 16px;
+	margin-bottom: 1 em;
+	margin-top: 1 em;
+	font-family: Helvetica, sans-serif;
+	padding-top: 1 em;
+	padding-right: 0px;
+	padding-bottom: 1 em;
+	padding-left: 0px;
+}
+
+h3 {
+	font-size: 1.2em;
+}
+
+p {
+	font-size: 14px;
+	line-height: 1.8em;
+	margin-bottom: 1em;
+	padding-right: 30px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+ol {
+	margin-bottom: 16 px;
+	width: 800px;
+	padding-right: 20px;
+	padding-left: 20px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 14px;
+	color: #333333;
+}
+
+a {
+	color: #009;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: #F60;
+}
+
+a:visited {
+	color: #333;
+	text-decoration: underline;
+}
+
+/* Header */
+
+#header {
+	width: 900px;
+	height: 71px;
+	letter-spacing: -1px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+}
+
+
+#headerbg {
+	clear: both;
+	width: 900px;
+	height: 209px;
+	background: url(../_images/ocean.jpg) no-repeat left top;
+	margin-top: 20px;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+}
+
+/* Logo */
+
+#logo {
+	float: left;
+	background-image: none;
+	background-repeat: no-repeat;
+	margin-top: 21px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+#logo p     {
+	float: left;
+	margin: 0;
+	text-transform: lowercase;
+}
+
+
+
+
+/* Menu */
+
+#menu {
+	float: right;
+	margin-top: 21px;
+}
+
+#menu ul {
+	margin: 0;
+	list-style: none;
+}
+
+#menu li {
+	display: inline;
+}
+
+#menu a {
+	display: block;
+	float: left;
+	padding: 30px 20px 0 20px;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 14px;
+	color: #4E4E4E;
+}
+
+#menu a:hover {
+	background: url(../_images/current_page_ind.jpg) no-repeat center top;
+}
+
+#menu .current_page_item a {
+	background: url(../_images/current_page_ind.jpg) no-repeat center top;
+}
+
+/* Page */
+
+#page {
+	width: 900px;
+	margin: 0 auto;
+	padding-top: 20px;
+	background: #F4F4F4;
+}
+#main-text {
+	float: left;
+	width: 530px;
+	line-height: 1.8em;
+	padding-top: 0px;
+	padding-right: 20px;
+	padding-bottom: 0px;
+	padding-left: 20px;
+	font-family: "Times New Roman", Times, serif;
+	margin-right: 10px;
+	margin-left: 20px;
+	font-size: 14px;
+}
+
+#main-text2{
+	float: left;
+	line-height: 1.8em;
+	padding-top: 0px;
+	padding-right: 30px;
+	padding-bottom: 0px;
+	padding-left: 30px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	margin: 0px;
+	width: 900px;
+	font-size: 14px;
+}
+
+#main-text .title {
+	font-size: 2em;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #333;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+#sidebar {
+	float: right;
+	width: 250px;
+	line-height: 1.8em;
+	font-size: 1em;
+	padding-top: 0px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+}
+#sidebar ul {
+	font-size: 12px;
+	text-align: left;
+	white-space: normal;
+	text-indent: 5px;
+	display: block;
+	margin: 0px;
+	padding: 0px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+#sidebar .title {
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+	border-bottom-color: #999;
+	font-weight: bold;
+	color: #666;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 1.2em;
+	text-transform: uppercase;
+	margin-top: 0;
+	margin-right: 0;
+	margin-bottom: 5px;
+	margin-left: 0;
+	padding-bottom: 5px;
+}
+#sidebar .entry {
+	margin-bottom: 20px;
+	padding-bottom: 5px;
+	border-bottom: #9C9C9C 1px dashed;
+
+}
+
+/* Footer */
+
+#footer {
+	width: 900px;
+	height: 50px;
+	margin-bottom: 20px;
+	background: url(../_images/footer.jpg) no-repeat left top;
+	font-size: 11px;
+	color: #CCCCCC;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#footer #legal {
+	margin: 0;
+	text-align: right;
+	float: right;
+	padding-top: 15px;
+	padding-right: 20px;
+	padding-bottom: 15px;
+	padding-left: 20px;
+}
+#footer #updated {
+	text-align: left;
+	float: left;
+	padding-top: 15px;
+	padding-right: 20px;
+	padding-bottom: 15px;
+	padding-left: 20px;
+}
+#main-text li {
+	font-size: 1.1em;
+	line-height: 1.6em;
+	text-align: left;
+	vertical-align: baseline;
+	margin-bottom: 0.5em;
+}
+
+#photo {
+	background-position: right top;
+	float: right;
+	height: 360px;
+	width: 240px;
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: 50px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+}
+li {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 14 px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin-top: 0px;
+	margin-bottom: 10px;
+	line-height: 1.8em;
+}
