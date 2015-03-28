@@ -11,7 +11,7 @@
 	<meta name="keywords" content="Jiang Zhu, University of Wisconsin-Madison" />
 	<meta name="description" content="Jiang Zhu, PhD student, Department of Atmospheric and Oceanic Sciences, University of Wisconsin-Madison"/>
 
-	<link href="../_css/main.css" rel="stylesheet" type="text/css" />
+	<link href="../css/main.css" rel="stylesheet" type="text/css" />
 
 </head>
 
@@ -21,7 +21,7 @@
 	<!-- start header -->
 	<div id="header">
 		<div id="logo">
-    		<p><a href="http://www.wisc.edu/" target="_blank"><img src="../_images/uw_logo_1.jpg"></a></p>
+    		<p><a href="http://www.wisc.edu/" target="_blank"><img src="../images/uw_logo_1.jpg"></a></p>
   		</div>
 		<div id="menu">
 			<ul>
